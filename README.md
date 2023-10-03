@@ -1,4 +1,4 @@
-# <img src="README.assets/cpu.png" width="40" align=center /> RISCV-CPU 2022
+# <img src="README.assets/cpu.png" width="40" align=center /> RISCV-CPU 2023
 
 ## 引言
 
@@ -21,7 +21,7 @@
 
 ### 时间安排
 
-> 时间以上海交通大学 2023-2024 学年校历为准，Week 4 周一为 2022.10.02
+> 时间以上海交通大学 2023-2024 学年校历为准，Week 4 周一为 2023.10.02
 
 每 2 周一次检查，检查时间为每周日 22:00 后，下表为检查形式与标准：
 鉴于去年的情况，助教选择中间预留更长时间并且多多push，以保证大家的代码能够在期末前的时间里有一个不错的进度。
@@ -110,7 +110,7 @@ Code Review 将会有两次，分别在期中和期末，分别占 5%、10%。�
 - **Serial Communication Library**
 
   - 程序与 FPGA 板通过 USB 通讯过程中使用该库
-  - 安装方式参见本仓库 Submodule
+  - 安装方式参见本仓库 `doc` 分支，2023-10-03 update：范老师关于WSL2上板指引 `RISCV-CPU/doc/qweryy-Vivado-wsl2.md`
 
 - Vivado 不支持 MacOS 系统，故如果使用 Mac 则必须使用虚拟机，推荐 Ubuntu Desktop。此外对于使用 Windows 电脑的同学，RISC-V Toolchain 也推荐在 Linux 系统上安装。
 - FPGA 开发板比较脆弱，使用时请注意爱护，除垫脚外不要有磕碰或硬物接触；不要让导电物品（注意人体是导电的）接触到板上按钮除外的金属部分。
