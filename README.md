@@ -110,7 +110,7 @@ Code Review 将会有两次，分别在期中和期末，分别占 5%、10%。�
 - **Serial Communication Library**
 
   - 程序与 FPGA 板通过 USB 通讯过程中使用该库
-  - 安装方式参见本仓库 `doc` 分支，2023-10-03 update：范老师关于WSL2上板指引 `RISCV-CPU/doc/qweryy-Vivado-wsl2.md`
+  - 安装方式参见本仓库 `doc` 分支，2023-10-03 update：范老师关于WSL2上板指引 `RISC-V-CPU-2023/doc/RISCV-CPU-doc/qweryy-Vivado-wsl2.md`
 
 - Vivado 不支持 MacOS 系统，故如果使用 Mac 则必须使用虚拟机，推荐 Ubuntu Desktop。此外对于使用 Windows 电脑的同学，RISC-V Toolchain 也推荐在 Linux 系统上安装。
 - FPGA 开发板比较脆弱，使用时请注意爱护，除垫脚外不要有磕碰或硬物接触；不要让导电物品（注意人体是导电的）接触到板上按钮除外的金属部分。
