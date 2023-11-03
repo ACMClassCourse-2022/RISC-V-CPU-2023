@@ -27,26 +27,26 @@
 鉴于去年的情况，助教选择中间预留更长时间并且多多push，以保证大家的代码能够在期末前的时间里有一个不错的进度。
 另外，由于主体部分工作很多，助教大概率会在期中安排code review保证进度，具体时间会考虑同学们期中的work load。
 
-| 时间        | 检查内容                                              |
-| ----------- | ----------------------------------------------------- |
-| **Week 4**  | 仓库创建                                              |
-| **Week 6** | 完成电路设计草稿 / 各个 CPU 模块文件创建              |
-| **Week 8** | 开始完善部分模块代码，checkpoint 1        |
-| **Week 10** | 完善部分模块代码，尝试连线，checkpoint 2       |
-| **Week 12** | 各个 CPU 模块文件基本完成，完成 `cpu.v` 连线，checkpoint 3         |
+| 时间        | 检查内容                                                        |
+| ----------- | --------------------------------------------------------------- |
+| **Week 4**  | 仓库创建                                                        |
+| **Week 6**  | 完成电路设计草稿 / 各个 CPU 模块文件创建                        |
+| **Week 8**  | 开始完善部分模块代码，checkpoint 1                              |
+| **Week 10** | 完善部分模块代码，尝试连线，checkpoint 2                        |
+| **Week 12** | 各个 CPU 模块文件基本完成，完成 `cpu.v` 连线，checkpoint 3      |
 | **Week 14** | Simulation 初步debug 通过 `gcd`                                 |
 | **Week 16** | Simulation 完成debug 通过除 `tak`，`heart`，`pi` 之外的所有样例 |
-| **Week 18** | FPGA 通过所有样例                                     |
+| **Week 18** | FPGA 通过所有样例                                               |
 
 ### 分数构成
 
 本作业满分为 100%。
 
-| 评分项目        | 分数 | 说明                                     |
-| --------------- | ---- | ---------------------------------------- |
-| **仿真测试**    | 75%  | 在 OJ 通过所有仿真测试点                 |
-| **FPGA 测试**   | 10%  | 在 OJ 通过所有 FPGA 测试点               |
-| **Code Review** | 5%+10%  | 以面谈形式考察 CPU 原理与 HDL 的理解掌握 |
+| 评分项目        | 分数   | 说明                                     |
+| --------------- | ------ | ---------------------------------------- |
+| **仿真测试**    | 75%    | 在 OJ 通过所有仿真测试点                 |
+| **FPGA 测试**   | 10%    | 在 OJ 通过所有 FPGA 测试点               |
+| **Code Review** | 5%+10% | 以面谈形式考察 CPU 原理与 HDL 的理解掌握 |
 
 Code Review 将会有两次，分别在期中和期末，分别占 5%、10%。期中的 Code Review 会考察 CPU 原理的设计和工程进度，期末的 Code Review 会考察整个项目的理解掌握。Code Review 会以面谈形式进行，面谈时间、地点将会在课程群内通知。 
 
@@ -91,7 +91,6 @@ Code Review 将会有两次，分别在期中和期末，分别占 5%、10%。�
 - 特权指令集见 Volume 2, Privileged Spec
 - 非官方 [Read the Docs 文档](https://msyksphinz-self.github.io/riscv-isadoc/html/index.html)
 - 非官方 Green Card，[PDF 下载链接](https://inst.eecs.berkeley.edu/~cs61c/fa17/img/riscvcard.pdf)
-- RISC-V C and C++ Cross-compiler https://jbox.sjtu.edu.cn/l/d1mbTU 这个链接是可以正常使用的包，编译于 Ubuntu20.04，使用方式在教程https://github.com/riscv-collab/riscv-gnu-toolchain。
 
 ### Simulation测试
 
